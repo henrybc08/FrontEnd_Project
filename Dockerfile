@@ -1,5 +1,5 @@
 FROM node:8.9.3
-MAINTAINER Neyber Rojas
+MAINTAINER Henry Bustamante
 RUN npm install -g @angular/cli
 RUN npm rebuild node-sass --force
 RUN mkdir /code
